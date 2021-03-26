@@ -1,0 +1,9 @@
+@media screen and (max-width:739px){
+    .main{
+        background:black;
+    }
+
+    .formulario{
+        width: 100%;
+    }
+}

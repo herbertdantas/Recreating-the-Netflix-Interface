@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+
+}
+
+header h2{
+    font-size: 40px;
+    color: red;
+    font-family: 'Arial Black';
+    margin-left: 5px;
+    position: absolute;
+
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/imagem-fundo.jpg');
+    align-items: center;
+    justify-content: center;
+    
+     
+}
+
+.formulario{
+    height: 530px;
+    width: 330px;
+    background-color:rgba(0,0,0,0.80);
+    color: white;
+    padding: 60px;
+}
+.formulario h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.formulario .inputs{
+    width: 95%;
+    height: 8%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(85, 81, 76);
+    font-size: 18px;
+    color:white;
+    padding-left: 10px;
+    border-bottom: orangered solid 2px; 
+    
+}
+
+.formulario #botao-entrar{
+    text-decoration: none;
+    width: 99%;
+    height: 8%;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    
+}
+.formulario #check{
+    margin-top: 15px;
+}
+.formulario label{
+    font-size:13px;
+    color:rgb(173, 171, 171);
+    
+}
+.formulario label a{
+    text-decoration: none;  
+    color:rgb(173, 171, 171);
+    margin-left: 80px;
+}
+
+.formulario #botao-facebook{
+    margin-top: 20px;
+    background-color: transparent;
+    border: transparent;
+    color:rgb(173, 171, 171);
+    cursor: pointer;
+}
+
+.formulario #novo-aqui{
+    margin-top: 10px;
+    color:rgb(173, 171, 171);
+}
+.formulario #novo-aqui a{
+    text-decoration: none;
+    color: white;
+}
+
+.formulario #info{
+    margin-top: 10px;
+    color: rgb(173, 171, 171);
+    font-size: 13px;
+    text-align: justify;
+    
+}
+.formulario #info a{
+    text-decoration: none;
+    color: blue;
+    
+}
+
+
+
+
