@@ -1,90 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-
-    <!-- owl css-->
-    <link rel="stylesheet" href="../css/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="../css/owl/owl.theme.default.min.css">
-    <title>Netflix</title>
+    <link rel="stylesheet" href="../css/stylelogin.css">
+    <link rel="stylesheet" href="../css/responsivelogin.css">
+    <title>Login Netflix Clone</title>
 </head>
-<body>
+<body> 
     <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-                <a id="sair" href="login.html">Sair</a>
-            </nav>
-        </div>
-    </header>
+        <h2>NETFLIX</h2>
+        </header>
 
-    <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="titulo"> BREAKING BAD</h3>
-                <p class="descricao">Ao saber que tem câncer, um professor passa a fabricar metanfetamina pelo futuro da família, mudando o destino de todos.</p>
-            
-            <div class="botoes">
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i></i>
-                    ASSISTIR AGORA
-                </button>
-                <button role="button"class="botao">
-                    <i class="fas fa-info-circle"></i>
-                    MAIS INFORMAÇÕES
-                </button>
-                </div>
-            </div>
+    <main class="main">
+        
+        <div class="formulario">
+        <h2>Entrar</h2>
+        <input class="inputs" type="text" nome="usuario" placeholder="Email ou número de telefone"/>
+        <input class="inputs" type="password" nome="usuario" placeholder="Senha"/>
+        
+        <a href="netflix.html"><button id="botao-entrar"> Entrar</button></a>
+
+        
+        <input id="check" type="checkbox" nome="lembrar" />
+        <label for="check">Lembre-se de mim <a href="">Precisa de Ajuda?</a></label> 
+        
+        <a href="#"><button id="botao-facebook">
+            <i class="fab fa-facebook-square"></i>
+            Conectar com Facebook
+
+        </button></a>
+
+        <p id="novo-aqui">Novo por aqui? <a href="#">Assine agora.</a></p>
+
+        <p id="info">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a href="#">Saiba mais.</a></p>
+        
         </div>
     </main>
 
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filme" src="../img/mini1.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini2.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini3.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini4.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini5.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini6.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini7.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini8.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini9.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="../img/mini10.jpg" alt="" srcset="">
-            </div>
-        </div>
-    </div>
-
     <script src="https://kit.fontawesome.com/4b77fd54d8.js" crossorigin="anonymous"></script>
-    <script src="../js/owl/jquery.min.js"></script>
-    <script src="../js/owl/owl.carousel.min.js"></script>
-    <script src="../js/setup.js"></script>
-
 </body>
 </html>
